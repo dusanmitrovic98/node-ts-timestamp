@@ -27,3 +27,4 @@ class Timestamp {
   }
 
   public static getHours(timestamp: string): string {
+    const date: Date = new Date(timestamp);
