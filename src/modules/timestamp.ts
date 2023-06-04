@@ -32,3 +32,4 @@ class Timestamp {
 
     return hours;
   }
+  public static getMinutes(timestamp: string): string {
