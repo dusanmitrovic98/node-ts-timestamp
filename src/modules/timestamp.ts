@@ -52,3 +52,34 @@ class Timestamp {
     const separatorValue = separator || "-";
     const date: string = `${year}${separatorValue}${month}${separatorValue}${day}`;
 
+    return date;
+  }
+
+  public static getTime(timestamp: string, separator?: string): string {
+    const hours: string = this.getHours(timestamp);
+    const minutes: string = this.getMinutes(timestamp);
+    const seconds: string = this.getSeconds(timestamp);
+    const separatorValue = separator || ":";
+    const date: string = `${hours}${separatorValue}${minutes}${separatorValue}${seconds}`;
+
+    return date;
+  }
+
+  public static getDateTime(
+    timestamp: string,
+    separator?: string,
+    prefix?: string,
+    suffix?: string
+  ): string {
+    const date: string = this.getDate(timestamp);
+    const time: string = this.getTime(timestamp);
+    const separatorValue: string = separator || " || ";
+    const prefixValue: string = prefix || "[";
+    const suffixValue: string = suffix || "]";
+    const result: string = `${prefixValue}${date}${separatorValue}${time}${suffixValue}`;
+
+    return result;
+  }
+}
+
+export default Timestamp;
