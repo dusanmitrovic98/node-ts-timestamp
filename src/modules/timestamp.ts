@@ -10,3 +10,4 @@ class Timestamp {
     const year = `${date.getFullYear()}`;
 
     return year;
+  }
