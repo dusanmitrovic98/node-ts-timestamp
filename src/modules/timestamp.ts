@@ -5,3 +5,4 @@ class Timestamp {
     return now.toISOString();
   }
 
+  public static getYear(timestamp: string): string {
