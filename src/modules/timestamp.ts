@@ -15,3 +15,4 @@ class Timestamp {
   public static getMonth(timestamp: string): string {
     const date: Date = new Date(timestamp);
     const month: string = ("0" + (date.getMonth() + 1)).slice(-2);
+
