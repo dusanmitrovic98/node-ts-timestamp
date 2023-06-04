@@ -8,3 +8,4 @@ class Timestamp {
   public static getYear(timestamp: string): string {
     const date = new Date(timestamp);
     const year = `${date.getFullYear()}`;
+
