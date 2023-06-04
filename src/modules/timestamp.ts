@@ -36,3 +36,4 @@ class Timestamp {
     const date: Date = new Date(timestamp);
     const minutes: string = ("0" + date.getMinutes()).slice(-2);
 
+    return minutes;
