@@ -39,3 +39,4 @@ class Timestamp {
     return minutes;
   }
   public static getSeconds(timestamp: string): string {
+    const date: Date = new Date(timestamp);
