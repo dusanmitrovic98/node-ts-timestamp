@@ -19,3 +19,4 @@ class Timestamp {
     return month;
   }
 
+  public static getDay(timestamp: string): string {
