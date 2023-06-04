@@ -28,3 +28,4 @@ class Timestamp {
 
   public static getHours(timestamp: string): string {
     const date: Date = new Date(timestamp);
+    const hours: string = ("0" + date.getHours()).slice(-2);
