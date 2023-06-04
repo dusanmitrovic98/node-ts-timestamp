@@ -48,3 +48,4 @@ class Timestamp {
   public static getDate(timestamp: string, separator?: string): string {
     const year: string = this.getYear(timestamp);
     const month: string = this.getMonth(timestamp);
+    const day: string = this.getDay(timestamp);
