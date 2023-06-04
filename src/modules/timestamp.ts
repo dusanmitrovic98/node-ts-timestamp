@@ -46,3 +46,4 @@ class Timestamp {
   }
 
   public static getDate(timestamp: string, separator?: string): string {
+    const year: string = this.getYear(timestamp);
