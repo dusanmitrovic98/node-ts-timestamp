@@ -44,3 +44,4 @@ class Timestamp {
 
     return seconds;
   }
+
