@@ -3,3 +3,4 @@ class Timestamp {
     const now: Date = new Date();
 
     return now.toISOString();
+  }
