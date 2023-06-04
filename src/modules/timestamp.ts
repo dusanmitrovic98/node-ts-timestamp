@@ -23,3 +23,4 @@ class Timestamp {
     const date: Date = new Date(timestamp);
     const day: string = ("0" + date.getDate()).slice(-2);
 
+    return day;
