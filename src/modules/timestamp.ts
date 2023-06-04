@@ -20,3 +20,4 @@ class Timestamp {
   }
 
   public static getDay(timestamp: string): string {
+    const date: Date = new Date(timestamp);
