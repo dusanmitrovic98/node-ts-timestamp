@@ -38,3 +38,4 @@ class Timestamp {
 
     return minutes;
   }
+  public static getSeconds(timestamp: string): string {
