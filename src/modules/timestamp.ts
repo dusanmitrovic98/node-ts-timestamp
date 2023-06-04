@@ -33,3 +33,4 @@ class Timestamp {
     return hours;
   }
   public static getMinutes(timestamp: string): string {
+    const date: Date = new Date(timestamp);
