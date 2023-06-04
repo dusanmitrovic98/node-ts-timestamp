@@ -26,3 +26,4 @@ class Timestamp {
     return day;
   }
 
+  public static getHours(timestamp: string): string {
