@@ -50,3 +50,4 @@ class Timestamp {
     const month: string = this.getMonth(timestamp);
     const day: string = this.getDay(timestamp);
     const separatorValue = separator || "-";
+    const date: string = `${year}${separatorValue}${month}${separatorValue}${day}`;
