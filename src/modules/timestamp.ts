@@ -42,3 +42,4 @@ class Timestamp {
     const date: Date = new Date(timestamp);
     const seconds: string = ("0" + date.getSeconds()).slice(-2);
 
+    return seconds;
