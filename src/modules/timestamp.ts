@@ -31,3 +31,4 @@ class Timestamp {
     const hours: string = ("0" + date.getHours()).slice(-2);
 
     return hours;
+  }
