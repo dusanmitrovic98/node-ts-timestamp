@@ -4,3 +4,4 @@ class Timestamp {
 
     return now.toISOString();
   }
+
