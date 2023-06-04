@@ -45,3 +45,4 @@ class Timestamp {
     return seconds;
   }
 
+  public static getDate(timestamp: string, separator?: string): string {
