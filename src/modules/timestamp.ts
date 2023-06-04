@@ -12,3 +12,4 @@ class Timestamp {
     return year;
   }
 
+  public static getMonth(timestamp: string): string {
