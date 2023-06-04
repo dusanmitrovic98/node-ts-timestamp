@@ -17,3 +17,4 @@ class Timestamp {
     const month: string = ("0" + (date.getMonth() + 1)).slice(-2);
 
     return month;
+  }
